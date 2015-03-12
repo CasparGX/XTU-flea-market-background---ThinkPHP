@@ -1,0 +1,62 @@
+body {
+  background-color: #f8f8f8;
+}
+header {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  background-color: #f88f55;
+}
+section {
+  float: left;
+}
+.moblie-nav {
+  padding: 10px 0;
+}
+.m-form {
+  width: 100%;
+}
+.moblie-form {
+  padding: 0;
+}
+.form-control {
+  height: 70px;
+  padding: 20px 12px;
+  font-size: 16px;
+  text-align: center;
+  border: none;
+  border-radius: 0;
+}
+.m-content {
+  width: 100%;
+}
+.moblie-content {
+  padding: 0;
+}
+.moblie-content img {
+  width: 100%;
+  height: auto;
+}
+.m-banner {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding: 10px 20px;
+  float: left;
+}
+.m-banner img {
+  width: 100%;
+  height: auto;
+}
+footer {
+  width: 100%;
+  height: auto;
+  float: left;
+  margin-top: 20%;
+  text-align: center;
+}
+.m-footer {
+  width: 100%;
+  float: left;
+  padding: 20px 0;
+}

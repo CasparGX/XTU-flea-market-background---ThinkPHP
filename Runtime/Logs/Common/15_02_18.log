@@ -1,0 +1,18 @@
+[ 2015-02-18T21:46:59+08:00 ] ::1 /ershou/index.php/Runtime/Data/1/1424012521
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+ERR: 无法加载模块:Runtime
+
+[ 2015-02-18T22:07:00+08:00 ] ::1 /ershou/index.php/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+ERR: 无法加载模块:Index
+
+[ 2015-02-18T22:07:19+08:00 ] ::1 /ershou/index.php/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+ERR: 无法加载模块:Index
+

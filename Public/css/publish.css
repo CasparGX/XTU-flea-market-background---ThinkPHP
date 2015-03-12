@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/**
+ *发布页
+ * @authors Your Name (you@example.org)
+ * @date    2015-02-14 13:13:46
+ * @version $Id$
+ */
+
+.publish {
+  width: 100%;
+  height: auto;
+  min-height: 700px;
+}
+.publish-info {
+  width: 95%;
+  height: auto;
+  background-color: #fff;
+  margin: 0 auto;
+  min-height: 700px;
+}
+.publish-info-heading {
+  width: 100%;
+  height: 90px;
+  background-image: url(../images/pub.jpg);
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+}
+.publish-info-pic {
+  width: 100%;
+  height: 190px;
+  background-color: #f2f2f2;
+  overflow: hidden;
+  text-align: right;
+}
+.publish-info-add {
+  width: 170px;
+  height: 170px;
+  margin: 0 auto;
+}
+.publish-info-pic a {
+  display: block;
+  padding: 10px 0;
+}
+.form-summary {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
+.form-sum-title1 {
+  height: 50px;
+  background-image: url(../images/xin1.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.form-sum-title2 {
+  height: 43px;
+  background-image: url(../images/xin2.png);
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.publish-rules {
+  color: #cd7d7d;
+}
+.publish-rules:hover {
+  text-decoration: none;
+}
+.publish-rules:focus {
+  text-decoration: none;
+}
+.publish-btn {
+  background-color: #cd7d7d;
+  padding: 10px 40px;
+  margin-bottom: 20px;
+  color: #fff;
+  border-radius: 6px;
+}
+.publish-btn:hover {
+  background-color: #cd7d7d;
+}
+#rules-check {
+  margin-left: 0;
+}
+.checkbox label {
+  cursor: auto;
+}
+#rules {
+  position: fixed;
+  border-radius: 20px;
+  background-color: #fff;
+}

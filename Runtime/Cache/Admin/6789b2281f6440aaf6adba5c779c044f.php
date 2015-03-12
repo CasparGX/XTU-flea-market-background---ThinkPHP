@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>2015-03-17

@@ -1,0 +1,28 @@
+body {
+  background-color: #f8f8f8;
+}
+header {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  background-color: #f88f55;
+}
+section {
+  float: left;
+}
+footer {
+  width: 100%;
+  height: auto;
+  float: left;
+  margin-top: 20%;
+  text-align: center;
+}
+.m-footer {
+  width: 100%;
+  float: left;
+  padding: 20px 0;
+}
+.m-show {
+  width: 100%;
+  height: auto;
+}

@@ -1,0 +1,61 @@
+body {
+  background-color: #f8f8f8;
+}
+header {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  background-color: #f88f55;
+}
+section {
+  float: left;
+}
+.m-list-content {
+  width: 100%;
+  height: auto;
+}
+.waterfull ul li {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  background: inherit;
+  padding: 10px 0;
+}
+.waterfull ul li .a-img {
+  width: 30%;
+  float: left;
+}
+.waterfull ul li .a-img img {
+  width: 100%;
+  height: 145px;
+}
+.waterfull ul li .li-title {
+  width: 60%;
+  font-size: 18px;
+  background: inherit;
+}
+.waterfull ul li .qianm {
+  width: 60%;
+  float: left;
+  font-size: 14px;
+  background: inherit;
+}
+.description {
+  width: 60%;
+  float: left;
+  max-height: 70px;
+  word-break: break-all;
+  padding: 10px 10px;
+}
+footer {
+  width: 100%;
+  height: auto;
+  float: left;
+  margin-top: 20%;
+  text-align: center;
+}
+.m-footer {
+  width: 100%;
+  float: left;
+  padding: 20px 0;
+}

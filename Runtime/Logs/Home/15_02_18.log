@@ -1,0 +1,17 @@
+[ 2015-02-18T22:06:55+08:00 ] ::1 /ershou/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003252s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056426s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002295s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003259s ]
+

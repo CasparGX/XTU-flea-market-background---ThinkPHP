@@ -1,0 +1,56 @@
+[ 2015-02-25T11:12:37+08:00 ] ::1 /ershou/index.php/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.126146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002914s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.3400s ]
+SQL: SELECT * FROM `tp_goods`  [ RunTime:0.0135s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.166990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.167086s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009921s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009970s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001130s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001177s ]
+
+[ 2015-02-25T11:14:35+08:00 ] ::1 /ershou/index.php/Admin/Goods/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 60 AND `picsrc` = '/Public/uploadfile/1/1424777336/' LIMIT 1   [ RunTime:0.1959s ]
+SQL: DELETE FROM `tp_goods` WHERE `id` = 60 [ RunTime:0.0160s ]
+
+[ 2015-02-25T11:18:26+08:00 ] ::1 /ershou/index.php/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `tp_goods`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: picThumbArray F:\WAMP\apache\htdocs\ershou\Apps\Admin\Controller\GoodsController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008158s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008239s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000680s ]
+

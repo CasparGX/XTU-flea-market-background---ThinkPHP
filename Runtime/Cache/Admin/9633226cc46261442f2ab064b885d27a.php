@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>{"result":"error","msg":"u8d26u53f7u4e0du5b58u5728"}

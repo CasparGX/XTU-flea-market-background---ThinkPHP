@@ -1,0 +1,485 @@
+@charset "UTF-8";
+/**
+ *
+ * @authors Lemopo (you@example.org)
+ * @date    2015-02-08 15:23:31
+ * @version $Id$
+ */
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "微软雅黑", "Lucida Grande", "Lucida Sans", Helvetica, Arial, Sans;
+}
+a {
+  color: #666;
+}
+
+body {
+  background-color: #f8f8f8;
+}
+header,section,footer {
+  display: block;
+}
+/************************************/
+
+.waterfull ul li img {
+  width: 274px;
+  height: 200px;
+  margin: 0 auto;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+.waterfull ul li img:hover {
+  -webkit-transform: scale(.95,.95);
+  -moz-transform: scale(.95,.95);
+  -ms-transform: scale(.95,.95);
+  -o-transform: scale(.95,.95);
+  transform: scale(.95,.95);
+}
+.waterfull ul li .li-title a {
+  text-decoration: none;
+}
+.waterfull ul li .li-title a:hover {
+  color: #a9a9a9;
+}
+#imloading {
+  width:auto;
+  max-width: 300px;
+  height:30px;
+  line-height:30px;
+  font-size:16px;
+  text-align:center;
+  opacity:0.7;
+  background:#000;
+  margin:10px auto 30px;
+  color:#fff;
+  display:none;
+}
+
+/*回到顶部*/
+#btn {
+	width:40px;
+	height:40px;
+	position:fixed;
+	display:none;
+	right: 50px;
+	bottom:10px;
+	background:url(../images/top_bg.png) no-repeat left top;
+}
+#btn:hover {
+	background:url(../images/top_bg.png) no-repeat 0 -39px;
+}
+
+/* header */
+.logo {
+  width: 195px;
+  height: 110px;
+  background-color: #fff;
+  float: left;
+  padding: 0;
+}
+.logo img {
+  width: 195px;
+  height: auto;
+  float: left;
+}
+.search {
+  width: 35%;
+  margin-top: 30px;
+  margin-left: 20%;
+  float: left;
+}
+.search-input {
+  width: 80%;
+  float: left;
+}
+.sign {
+  margin-top: 26px;
+  float: right;
+}
+.sign li {
+  float: left;
+}
+.sign li a:hover {
+  background-color: #f8f8f8;
+}
+.btn-reset {
+  border-radius: 0;
+}
+.btn-reset-bg {
+  background-color: #ccc;
+}
+
+/**侧栏列表**/
+.home {
+  text-align: center;
+  margin-left: -10px;
+  font-size: 18px;
+}
+.siderbar {
+  width: 195px;
+  padding: 0px;
+}
+.nav-aside {
+  background-color: #fff;
+  line-height: 20px;
+  padding-left: 10px;
+}
+
+/*内容区*/
+.section-content {
+  height: auto;
+  padding: 0;
+  float: left;
+}
+.about-us {
+  margin-left: -10px;
+}
+.banner {
+  width: 100%;
+  height: 85px;
+}
+.banner-left {
+  width: auto;
+  height: 85px;
+  margin-left: 10px;
+  float: left;
+}
+.banner-right {
+  width: auto;
+  height: 85px;
+  float: left;
+  margin-left: 25px;
+}
+.banner-right img {
+  padding-top: 10px;
+}
+.hot-new {
+  width: 100%;
+  height: 65px;
+  float: left;
+  background-repeat: no-repeat;
+}
+.hot-new img {
+  margin-left: 10px;
+  float: left;
+}
+.hot {
+  position: relative;
+  top: -45px;
+  width: 130px;
+  height: 45px;
+  display: block;
+  margin-left: 40px;
+  float: left;
+}
+.new {
+  position: relative;
+  top: -45px;
+  width: 130px;
+  height: 45px;
+  display: block;
+  margin-left: 15px;
+  float: left;
+}
+.trade {
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+  float: left;
+}
+.trade-content {
+  width: auto;
+  height: auto;
+}
+/*footer*/
+footer {
+  height: 135px;
+  margin-top: 5%;
+  border-top: 2px solid #f88f55;
+}
+.copyright {
+  width: 40%;
+  height: 60px;
+  margin: 0 auto;
+  margin-top: 3%;
+  text-align: center;
+}
+.copyright a {
+  line-height: 30px;
+  text-decoration: none;
+  padding: 0 5% 0 5%;
+  color: #000;
+}
+
+/*************媒体查询************/
+@media (max-width: 1200px) {
+  .logo {
+    width: 175px;
+    height: 99px;
+  }
+  .logo img {
+    width: 175px;
+  }
+  .siderbar {
+    width: 175px;
+  }
+  .banner-left {
+    width: 83%;
+    height: 72px;
+    float: left;
+  }
+  .banner-left img {
+    width: 100%;
+    float: left;
+  }
+  .banner-right {
+    width: 13%;
+    height: 72px;
+    float: left;
+    margin-left: 10px;
+  }
+  .banner-right a img {
+    width: 100%;
+    float: left;
+    padding-top: 16px;
+  }
+  .hot-new {
+    height: 53px;
+  }
+  .hot-new img {
+    width: 100%;
+  }
+  .hot {
+    position: relative;
+    top: -35px;
+    width: 100px;
+    height: 30px;
+    display: block;
+    margin-left: 38px;
+    float: left;
+  }
+  .new {
+    position: relative;
+    top: -35px;
+    width: 100px;
+    height: 30px;
+    display: block;
+    margin-left: 16px;
+    float: left;
+  }
+  .waterfull ul li {
+    width: 160px;
+    height: 240px;
+    margin: 16px 0 5px 20px;
+  }
+  .waterfull ul li .a-img {
+    width: 160px;
+  }
+  .waterfull ul li .a-img img {
+    width: 100%;
+    height: 160px;
+  }
+  .waterfull ul li .li-title {
+    font-size: 14px;
+  }
+  .waterfull ul li .qianm .sp1 {
+    height: 24px;
+  }
+  .waterfull ul li .qianm .sp2 {
+    height: 24px;
+  }
+  .waterfull ul li .qianm .sp3 {
+    height: 22px;
+    font-size: 16px;
+    float: left;
+    margin: 5px 0px 0px 10px;
+  }
+  #btn {
+    right: 20px;
+  }
+}
+@media (max-width: 992px) {
+  .logo {
+    width: 156px;
+    height: 88px;
+  }
+  .logo img {
+    width: 156px;
+  }
+  .siderbar {
+    width: 156px;
+  }
+  .banner-left {
+    width: 80%;
+    height: 54px;
+    float: left;
+  }
+  .banner-left img {
+    width: 100%;
+    float: left;
+  }
+  .banner-right {
+    width: 15%;
+    height: 54px;
+    float: left;
+    margin-left: 10px;
+  }
+  .banner-right a img {
+    width: 100%;
+    float: left;
+  }
+  .hot-new {
+    height: 45px;
+  }
+  .hot-new img {
+    width: 100%;
+  }
+  .hot {
+    position: relative;
+    top: -30px;
+    width: 90px;
+    height: 30px;
+    display: block;
+    margin-left: 32px;
+    float: left;
+  }
+  .new {
+    position: relative;
+    top: -30px;
+    width: 90px;
+    height: 30px;
+    display: block;
+    margin-left: 2px;
+    float: left;
+  }
+  .waterfull ul li {
+    width: 160px;
+    height: 240px;
+    margin: 16px 0 5px 20px;
+  }
+  .waterfull ul li .a-img {
+    width: 160px;
+  }
+  .waterfull ul li .a-img img {
+    width: 100%;
+    height: 160px;
+  }
+  .waterfull ul li .li-title {
+    font-size: 14px;
+  }
+  .waterfull ul li .qianm .sp1 {
+    height: 24px;
+  }
+  .waterfull ul li .qianm .sp2 {
+    height: 24px;
+  }
+  .waterfull ul li .qianm .sp3 {
+    height: 22px;
+    font-size: 16px;
+    float: left;
+    margin: 5px 0px 0px 10px;
+  }
+  #btn {
+    right: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .logo {
+    width: 136px;
+    height: 77px;
+  }
+  .logo img {
+    width: 136px;
+  }
+  .search {
+    margin-top: 18px;
+    margin-left: 10%;
+  }
+  .sign {
+    margin-top: 17px;
+    margin-left: 5%;
+  }
+  .siderbar {
+    width: 136px;
+  }
+  .banner {
+    height: auto;
+  }
+  .banner-left {
+    width: 75%;
+    height: 49px;
+    float: left;
+  }
+  .banner-left img {
+    width: 100%;
+    float: left;
+  }
+  .banner-right {
+    width: 17%;
+    height: 49px;
+    float: left;
+    margin-left: 10px;
+  }
+  .banner-right a img {
+    width: 100%;
+    float: left;
+    padding-top: 8px;
+  }
+  .hot-new {
+    height: 45px;
+  }
+  .hot-new img {
+    width: 100%;
+  }
+  .hot {
+    position: relative;
+    top: -30px;
+    width: 90px;
+    height: 30px;
+    display: block;
+    margin-left: 32px;
+    float: left;
+  }
+  .new {
+    position: relative;
+    top: -30px;
+    width: 90px;
+    height: 30px;
+    display: block;
+    margin-left: 2px;
+    float: left;
+  }
+  .waterfull ul li {
+    width: 160px;
+    height: 240px;
+    margin: 16px 0 5px 20px;
+  }
+  .waterfull ul li .a-img {
+    width: 160px;
+  }
+  .waterfull ul li .a-img img {
+    width: 100%;
+    height: 160px;
+  }
+  .waterfull ul li .li-title {
+    font-size: 14px;
+  }
+  .waterfull ul li .qianm .sp1 {
+    height: 24px;
+  }
+  .waterfull ul li .qianm .sp2 {
+    height: 24px;
+  }
+  .waterfull ul li .qianm .sp3 {
+    height: 22px;
+    font-size: 16px;
+    float: left;
+    margin: 5px 0px 0px 10px;
+  }
+  #btn {
+    right: 10px;
+  }
+}

@@ -1,0 +1,41 @@
+
+.navbar-default {
+  height: 80px;
+  background-color: #f9a577;
+  color: #fff;
+  margin-bottom: 40px;
+}
+.navbar-default h1 {
+  float: left;
+  margin: 0;
+  padding: 20px 40px;
+}
+.navbar-default ul {
+  float: right;
+  margin: 0 40px 0 0;
+}
+.navbar-default ul li {
+  float: left;
+  padding: 25px 80px 20px 0;
+  font-size: 24px;
+}
+.navbar-default ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+.navbar-default ul li ul {
+  margin: 0;
+}
+.navbar-default ul li ul li {
+  float: none;
+  font-size: 18px;
+  padding: 5px 0 5px 0;
+}
+.navbar-default ul li ul li a {
+  color: #000;
+}
+.houtai-content {
+  height: auto;
+  padding: 0;
+  float: left;
+}

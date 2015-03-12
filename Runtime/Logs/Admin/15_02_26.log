@@ -1,0 +1,837 @@
+[ 2015-02-26T18:49:49+08:00 ] ::1 /ershou/index.php/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.027035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001149s ]
+
+[ 2015-02-26T18:50:05+08:00 ] ::1 /ershou/index.php/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+
+[ 2015-02-26T18:50:20+08:00 ] ::1 /ershou/index.php/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+NOTIC: [8] Undefined variable: goodsTypes F:\WAMP\apache\htdocs\ershou\Apps\Admin\Controller\GoodsController.class.php 第 25 行.
+ERR: Think\Controller:C方法不存在！
+
+[ 2015-02-26T18:50:32+08:00 ] ::1 /ershou/index.php/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+NOTIC: [8] Undefined variable: goodsTypes F:\WAMP\apache\htdocs\ershou\Apps\Admin\Controller\GoodsController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.3844s ]
+SQL: SELECT * FROM `tp_goods`  [ RunTime:0.0137s ]
+NOTIC: [8] Undefined variable: picThumbArray F:\WAMP\apache\htdocs\ershou\Apps\Admin\Controller\GoodsController.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086106s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013767s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013831s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001074s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001117s ]
+
+[ 2015-02-26T18:54:25+08:00 ] ::1 /ershou/index.php/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001116s ]
+NOTIC: [8] Undefined variable: goodsType F:\WAMP\apache\htdocs\ershou\Apps\Admin\Controller\GoodsController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `tp_goods`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: picThumbArray F:\WAMP\apache\htdocs\ershou\Apps\Admin\Controller\GoodsController.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015838s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015928s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001143s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001222s ]
+
+[ 2015-02-26T18:58:11+08:00 ] ::1 /ershou/index.php/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+NOTIC: [8] Undefined variable: goodsType F:\WAMP\apache\htdocs\ershou\Apps\Admin\Controller\GoodsController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `tp_goods`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: picThumbArray F:\WAMP\apache\htdocs\ershou\Apps\Admin\Controller\GoodsController.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009595s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000584s ]
+
+[ 2015-02-26T18:58:25+08:00 ] ::1 /ershou/index.php/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+NOTIC: [8] Undefined variable: goodsType F:\WAMP\apache\htdocs\ershou\Apps\Admin\Controller\GoodsController.class.php 第 25 行.
+
+[ 2015-02-26T19:00:48+08:00 ] ::1 /ershou/index.php/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `tp_goods`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: picThumbArray F:\WAMP\apache\htdocs\ershou\Apps\Admin\Controller\GoodsController.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009975s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010025s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2015-02-26T19:01:25+08:00 ] ::1 /ershou/index.php/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `tp_goods`  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: picThumbArray F:\WAMP\apache\htdocs\ershou\Apps\Admin\Controller\GoodsController.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011535s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000416s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\WAMP\apache\htdocs\ershou\ThinkPHP\Common\functions.php:848) F:\WAMP\apache\htdocs\ershou\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\WAMP\apache\htdocs\ershou\ThinkPHP\Common\functions.php:848) F:\WAMP\apache\htdocs\ershou\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\WAMP\apache\htdocs\ershou\ThinkPHP\Common\functions.php:848) F:\WAMP\apache\htdocs\ershou\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000712s ]
+
+[ 2015-02-26T19:04:25+08:00 ] ::1 /ershou/index.php/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `tp_goods`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: picThumbArray F:\WAMP\apache\htdocs\ershou\Apps\Admin\Controller\GoodsController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014847s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000992s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001077s ]
+
+[ 2015-02-26T19:04:46+08:00 ] ::1 /ershou/index.php/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `tp_goods`  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: picThumbArray F:\WAMP\apache\htdocs\ershou\Apps\Admin\Controller\GoodsController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017825s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017940s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000935s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001004s ]
+
+[ 2015-02-26T19:18:10+08:00 ] ::1 /ershou/index.php/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `tp_goods`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: picThumbArray F:\WAMP\apache\htdocs\ershou\Apps\Admin\Controller\GoodsController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+
+[ 2015-02-26T19:18:57+08:00 ] ::1 /ershou/index.php/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `tp_goods`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: picThumbArray F:\WAMP\apache\htdocs\ershou\Apps\Admin\Controller\GoodsController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+
+[ 2015-02-26T19:21:37+08:00 ] ::1 /ershou/index.php/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `tp_goods`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: picThumbArray F:\WAMP\apache\htdocs\ershou\Apps\Admin\Controller\GoodsController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+
+[ 2015-02-26T19:22:01+08:00 ] ::1 /ershou/index.php/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tp_goods`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: picThumbArray F:\WAMP\apache\htdocs\ershou\Apps\Admin\Controller\GoodsController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+
+[ 2015-02-26T19:23:12+08:00 ] ::1 /ershou/index.php/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0394s ]
+SQL: SELECT * FROM `tp_goods`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: picThumbArray F:\WAMP\apache\htdocs\ershou\Apps\Admin\Controller\GoodsController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013167s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000941s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001008s ]
+
+[ 2015-02-26T19:24:50+08:00 ] ::1 /ershou/index.php/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000887s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `tp_goods`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: picThumbArray F:\WAMP\apache\htdocs\ershou\Apps\Admin\Controller\GoodsController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+
+[ 2015-02-26T19:25:37+08:00 ] ::1 /ershou/index.php/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `tp_goods`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: picThumbArray F:\WAMP\apache\htdocs\ershou\Apps\Admin\Controller\GoodsController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+
+[ 2015-02-26T19:26:00+08:00 ] ::1 /ershou/index.php/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `tp_goods`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: picThumbArray F:\WAMP\apache\htdocs\ershou\Apps\Admin\Controller\GoodsController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+
+[ 2015-02-26T19:27:50+08:00 ] ::1 /ershou/index.php/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `tp_goods`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: picThumbArray F:\WAMP\apache\htdocs\ershou\Apps\Admin\Controller\GoodsController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+
+[ 2015-02-26T19:28:15+08:00 ] ::1 /ershou/index.php/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `tp_goods`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: picThumbArray F:\WAMP\apache\htdocs\ershou\Apps\Admin\Controller\GoodsController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+
+[ 2015-02-26T19:29:02+08:00 ] ::1 /ershou/index.php/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `tp_goods`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: picThumbArray F:\WAMP\apache\htdocs\ershou\Apps\Admin\Controller\GoodsController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000474s ]
+
+[ 2015-02-26T19:29:10+08:00 ] ::1 /ershou/index.php/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `tp_goods`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: picThumbArray F:\WAMP\apache\htdocs\ershou\Apps\Admin\Controller\GoodsController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007306s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000723s ]
+
+[ 2015-02-26T19:29:37+08:00 ] ::1 /ershou/index.php/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tp_goods`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: picThumbArray F:\WAMP\apache\htdocs\ershou\Apps\Admin\Controller\GoodsController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007811s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007860s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000694s ]
+
+[ 2015-02-26T19:30:03+08:00 ] ::1 /ershou/index.php/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001277s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `tp_goods`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: picThumbArray F:\WAMP\apache\htdocs\ershou\Apps\Admin\Controller\GoodsController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+NOTIC: [8] Array to string conversion F:\WAMP\apache\htdocs\ershou\Runtime\Cache\Admin\eb28dcc79586c855274cb6931152edde.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007327s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007372s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000657s ]
+
+[ 2015-02-26T19:30:24+08:00 ] ::1 /ershou/index.php/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `tp_goods`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: picThumbArray F:\WAMP\apache\htdocs\ershou\Apps\Admin\Controller\GoodsController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+NOTIC: [8] Array to string conversion F:\WAMP\apache\htdocs\ershou\Runtime\Cache\Admin\eb28dcc79586c855274cb6931152edde.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007981s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008027s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000608s ]
+
+[ 2015-02-26T19:30:41+08:00 ] ::1 /ershou/index.php/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `tp_goods`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: picThumbArray F:\WAMP\apache\htdocs\ershou\Apps\Admin\Controller\GoodsController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+
+[ 2015-02-26T19:30:50+08:00 ] ::1 /ershou/index.php/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `tp_goods`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: picThumbArray F:\WAMP\apache\htdocs\ershou\Apps\Admin\Controller\GoodsController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008475s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000683s ]
+
+[ 2015-02-26T19:31:18+08:00 ] ::1 /ershou/index.php/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `tp_goods`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: picThumbArray F:\WAMP\apache\htdocs\ershou\Apps\Admin\Controller\GoodsController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+
+[ 2015-02-26T19:31:41+08:00 ] ::1 /ershou/index.php/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `tp_goods`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: picThumbArray F:\WAMP\apache\htdocs\ershou\Apps\Admin\Controller\GoodsController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+
+[ 2015-02-26T19:32:36+08:00 ] ::1 /ershou/index.php/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `tp_goods`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: picThumbArray F:\WAMP\apache\htdocs\ershou\Apps\Admin\Controller\GoodsController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : AttValue: &quot; or ' expected F:\WAMP\apache\htdocs\ershou\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name={:C('goodsType')} item=&quot;good&quot; key=&quot;k&quot; /&gt;&lt;/tpl&gt; F:\WAMP\apache\htdocs\ershou\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                ^ F:\WAMP\apache\htdocs\ershou\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : attributes construct error F:\WAMP\apache\htdocs\ershou\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name={:C('goodsType')} item=&quot;good&quot; key=&quot;k&quot; /&gt;&lt;/tpl&gt; F:\WAMP\apache\htdocs\ershou\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                ^ F:\WAMP\apache\htdocs\ershou\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : Couldn't find end of Start Tag tag line 1 F:\WAMP\apache\htdocs\ershou\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name={:C('goodsType')} item=&quot;good&quot; key=&quot;k&quot; /&gt;&lt;/tpl&gt; F:\WAMP\apache\htdocs\ershou\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                ^ F:\WAMP\apache\htdocs\ershou\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+ERR: XML标签语法错误 : name={:C('goodsType')} item="good" key="k"
+
+[ 2015-02-26T19:32:52+08:00 ] ::1 /ershou/index.php/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `tp_goods`  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: picThumbArray F:\WAMP\apache\htdocs\ershou\Apps\Admin\Controller\GoodsController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+
+[ 2015-02-26T19:33:12+08:00 ] ::1 /ershou/index.php/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `tp_goods`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: picThumbArray F:\WAMP\apache\htdocs\ershou\Apps\Admin\Controller\GoodsController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+NOTIC: [8] Undefined variable: C F:\WAMP\apache\htdocs\ershou\Runtime\Cache\Admin\eb28dcc79586c855274cb6931152edde.php 第 39 行.
+
+[ 2015-02-26T19:33:40+08:00 ] ::1 /ershou/index.php/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `tp_goods`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: picThumbArray F:\WAMP\apache\htdocs\ershou\Apps\Admin\Controller\GoodsController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : AttValue: &quot; or ' expected F:\WAMP\apache\htdocs\ershou\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name=$goods item=&quot;good&quot; key=&quot;k&quot; /&gt;&lt;/tpl&gt; F:\WAMP\apache\htdocs\ershou\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                ^ F:\WAMP\apache\htdocs\ershou\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : attributes construct error F:\WAMP\apache\htdocs\ershou\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name=$goods item=&quot;good&quot; key=&quot;k&quot; /&gt;&lt;/tpl&gt; F:\WAMP\apache\htdocs\ershou\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                ^ F:\WAMP\apache\htdocs\ershou\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : Couldn't find end of Start Tag tag line 1 F:\WAMP\apache\htdocs\ershou\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name=$goods item=&quot;good&quot; key=&quot;k&quot; /&gt;&lt;/tpl&gt; F:\WAMP\apache\htdocs\ershou\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                ^ F:\WAMP\apache\htdocs\ershou\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+ERR: XML标签语法错误 : name=$goods item="good" key="k"
+
+[ 2015-02-26T19:34:01+08:00 ] ::1 /ershou/index.php/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `tp_goods`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: picThumbArray F:\WAMP\apache\htdocs\ershou\Apps\Admin\Controller\GoodsController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+NOTIC: [2] Illegal string offset 'k' F:\WAMP\apache\htdocs\ershou\Runtime\Cache\Admin\eb28dcc79586c855274cb6931152edde.php 第 39 行.
+NOTIC: [2] Illegal string offset 'k' F:\WAMP\apache\htdocs\ershou\Runtime\Cache\Admin\eb28dcc79586c855274cb6931152edde.php 第 39 行.
+NOTIC: [2] Illegal string offset 'k' F:\WAMP\apache\htdocs\ershou\Runtime\Cache\Admin\eb28dcc79586c855274cb6931152edde.php 第 39 行.
+NOTIC: [2] Illegal string offset 'k' F:\WAMP\apache\htdocs\ershou\Runtime\Cache\Admin\eb28dcc79586c855274cb6931152edde.php 第 39 行.
+NOTIC: [2] Illegal string offset 'k' F:\WAMP\apache\htdocs\ershou\Runtime\Cache\Admin\eb28dcc79586c855274cb6931152edde.php 第 39 行.
+NOTIC: [2] Illegal string offset 'k' F:\WAMP\apache\htdocs\ershou\Runtime\Cache\Admin\eb28dcc79586c855274cb6931152edde.php 第 39 行.
+NOTIC: [2] Illegal string offset 'k' F:\WAMP\apache\htdocs\ershou\Runtime\Cache\Admin\eb28dcc79586c855274cb6931152edde.php 第 39 行.
+NOTIC: [2] Illegal string offset 'k' F:\WAMP\apache\htdocs\ershou\Runtime\Cache\Admin\eb28dcc79586c855274cb6931152edde.php 第 39 行.
+NOTIC: [2] Illegal string offset 'k' F:\WAMP\apache\htdocs\ershou\Runtime\Cache\Admin\eb28dcc79586c855274cb6931152edde.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014063s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014134s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000908s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000979s ]
+
+[ 2015-02-26T19:35:10+08:00 ] ::1 /ershou/index.php/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `tp_goods`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: picThumbArray F:\WAMP\apache\htdocs\ershou\Apps\Admin\Controller\GoodsController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+NOTIC: [2] Illegal string offset 'k' F:\WAMP\apache\htdocs\ershou\Runtime\Cache\Admin\eb28dcc79586c855274cb6931152edde.php 第 39 行.
+NOTIC: [2] Illegal string offset 'k' F:\WAMP\apache\htdocs\ershou\Runtime\Cache\Admin\eb28dcc79586c855274cb6931152edde.php 第 39 行.
+NOTIC: [2] Illegal string offset 'k' F:\WAMP\apache\htdocs\ershou\Runtime\Cache\Admin\eb28dcc79586c855274cb6931152edde.php 第 39 行.
+NOTIC: [2] Illegal string offset 'k' F:\WAMP\apache\htdocs\ershou\Runtime\Cache\Admin\eb28dcc79586c855274cb6931152edde.php 第 39 行.
+NOTIC: [2] Illegal string offset 'k' F:\WAMP\apache\htdocs\ershou\Runtime\Cache\Admin\eb28dcc79586c855274cb6931152edde.php 第 39 行.
+NOTIC: [2] Illegal string offset 'k' F:\WAMP\apache\htdocs\ershou\Runtime\Cache\Admin\eb28dcc79586c855274cb6931152edde.php 第 39 行.
+NOTIC: [2] Illegal string offset 'k' F:\WAMP\apache\htdocs\ershou\Runtime\Cache\Admin\eb28dcc79586c855274cb6931152edde.php 第 39 行.
+NOTIC: [2] Illegal string offset 'k' F:\WAMP\apache\htdocs\ershou\Runtime\Cache\Admin\eb28dcc79586c855274cb6931152edde.php 第 39 行.
+NOTIC: [2] Illegal string offset 'k' F:\WAMP\apache\htdocs\ershou\Runtime\Cache\Admin\eb28dcc79586c855274cb6931152edde.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009046s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000628s ]
+
+[ 2015-02-26T19:36:10+08:00 ] ::1 /ershou/index.php/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `tp_goods`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: picThumbArray F:\WAMP\apache\htdocs\ershou\Apps\Admin\Controller\GoodsController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012712s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012784s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000644s ]
+
+[ 2015-02-26T19:36:24+08:00 ] ::1 /ershou/index.php/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `tp_goods`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: picThumbArray F:\WAMP\apache\htdocs\ershou\Apps\Admin\Controller\GoodsController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007972s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000779s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000830s ]
+
+[ 2015-02-26T19:36:37+08:00 ] ::1 /ershou/index.php/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `tp_goods`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: picThumbArray F:\WAMP\apache\htdocs\ershou\Apps\Admin\Controller\GoodsController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010051s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010106s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001080s ]
+
+[ 2015-02-26T19:36:47+08:00 ] ::1 /ershou/index.php/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `tp_goods`  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: picThumbArray F:\WAMP\apache\htdocs\ershou\Apps\Admin\Controller\GoodsController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020385s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020497s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000740s ]
+
+[ 2015-02-26T19:37:11+08:00 ] ::1 /ershou/index.php/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `tp_goods`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: picThumbArray F:\WAMP\apache\htdocs\ershou\Apps\Admin\Controller\GoodsController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014761s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014840s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001086s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001156s ]
+
+[ 2015-02-26T21:18:23+08:00 ] ::1 /ershou/index.php/Admin/Goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `tp_goods`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: picThumbArray F:\WAMP\apache\htdocs\ershou\Apps\Admin\Controller\GoodsController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008444s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008516s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2015-02-26T22:09:21+08:00 ] ::1 /ershou/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` LIMIT 1   [ RunTime:0.0415s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+NOTIC: [8] Undefined variable: list F:\WAMP\apache\htdocs\ershou\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 13 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.142459s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.142515s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000638s ]
+

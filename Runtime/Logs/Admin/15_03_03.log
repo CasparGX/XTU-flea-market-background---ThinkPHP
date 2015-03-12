@@ -1,0 +1,232 @@
+[ 2015-03-03T00:05:18+08:00 ] ::1 /ershou/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+NOTIC: [8] Undefined variable: list F:\WAMP\apache\htdocs\ershou\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 13 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007297s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007347s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000690s ]
+
+[ 2015-03-03T00:05:29+08:00 ] ::1 /ershou/index.php/Admin/Goods/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0029s ]
+
+[ 2015-03-03T00:06:39+08:00 ] ::1 /ershou/index.php/Admin/Goods/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0027s ]
+SQL: INSERT INTO `tp_goods` (`picsrc`,`picname`,`title`,`type`,`price`,`describe`,`bargain`,`trading`,`seller`,`sellerID`,`qq`,`phone`,`creat_time`,`last_time`,`end_time`) VALUES ('/Public/uploadfile/1/1425312398/','0=54f48a8e6990a.png','野生程序员一只,低价贱卖','人口贩卖','6666','上好的野生程序员,低价贱卖了,大家行行好收了吧...','1','面议','萌萌哒单身狗','12138','630248976','15675264864','2015-03-03 12:06:39','2015-03-03 12:06:39','2015-04-02 12:00:00') [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005902s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000735s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000788s ]
+
+[ 2015-03-03T00:06:45+08:00 ] ::1 /ershou/index.php/Admin/Goods/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `tp_goods`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009290s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000679s ]
+
+[ 2015-03-03T00:06:47+08:00 ] ::1 /ershou/index.php/Admin/Goods/images/p1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+
+[ 2015-03-03T00:06:47+08:00 ] ::1 /ershou/index.php/Admin/Goods/images/demo2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+
+[ 2015-03-03T00:06:47+08:00 ] ::1 /ershou/index.php/Admin/Goods/images/one.jpeg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+ERR: 非法操作:images
+
+[ 2015-03-03T00:06:54+08:00 ] ::1 /ershou/index.php/Admin/Goods/soldOut/107
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::ajaxReturn(), called in F:\WAMP\apache\htdocs\ershou\Apps\Admin\Controller\GoodsController.class.php on line 209 and defined F:\WAMP\apache\htdocs\ershou\ThinkPHP\Library\Think\Controller.class.php 第 210 行.
+NOTIC: [8] Undefined variable: data F:\WAMP\apache\htdocs\ershou\ThinkPHP\Library\Think\Controller.class.php 第 216 行.
+
+[ 2015-03-03T00:07:42+08:00 ] ::1 /ershou/index.php/Admin/Goods/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000954s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001150s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `tp_goods`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012938s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000731s ]
+
+[ 2015-03-03T00:08:49+08:00 ] ::1 /ershou/index.php/Admin/Goods/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `tp_goods`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011104s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011168s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000750s ]
+
+[ 2015-03-03T00:08:54+08:00 ] ::1 /ershou/index.php/Admin/Goods/soldOut/id/%22+%24id+%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0043s ]
+SQL: UPDATE `tp_goods` SET `end_time`='2015-03-03 12:08:54' WHERE `id` = 0 [ RunTime:0.0003s ]
+
+[ 2015-03-03T00:11:15+08:00 ] ::1 /ershou/index.php/Admin/Goods/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `tp_goods`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009640s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000728s ]
+
+[ 2015-03-03T00:11:22+08:00 ] ::1 /ershou/index.php/Admin/Goods/soldOut107
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001057s ]
+ERR: 非法操作:soldOut107
+
+[ 2015-03-03T00:11:43+08:00 ] ::1 /ershou/index.php/Admin/Goods/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001236s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `tp_goods`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009854s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000683s ]
+
+[ 2015-03-03T00:11:49+08:00 ] ::1 /ershou/index.php/Admin/Goods/soldOut?id=107
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0028s ]
+SQL: UPDATE `tp_goods` SET `end_time`='2015-03-03 12:11:49' WHERE `id` = 107 [ RunTime:0.0003s ]
+
+[ 2015-03-03T00:12:02+08:00 ] ::1 /ershou/index.php/Admin/Goods/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `tp_goods` WHERE `end_time` >= '2015-03-03 12:12:02' LIMIT 0,29   [ RunTime:0.0005s ]
+

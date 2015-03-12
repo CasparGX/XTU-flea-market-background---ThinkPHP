@@ -1,0 +1,93 @@
+@charset "UTF-8";
+/**
+ *个人中心
+ * @authors Your Name (you@example.org)
+ * @date    2015-02-16 16:04:49
+ * @version $Id$
+ */
+.admin {
+  height: auto;
+  min-height: 600px;
+}
+.admin-content {
+  width: 95%;
+  height: auto;
+  min-height: 500px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.admin-heading {
+  width: 100%;
+  height: 90px;
+}
+.admin-title {
+  padding: 20px 20px;
+  float: left;
+}
+.admin-title span {
+  display: block;
+  float: left;
+  padding-left: 20px;
+}
+.admin-title span a {
+  padding-left: 10px;
+  text-decoration: none;
+}
+.admin-info {
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
+}
+/*个人信息*/
+.personal {
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+}
+.personal-title img {
+  width: 100%;
+  height: 100%;
+}
+/*管理商品*/
+.settings {
+  display: none;
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+}
+.settings-title img {
+  width: 100%;
+  height: 100%;
+}
+.my-trade {
+  margin: 0 auto;
+}
+.my-trade ul li {
+  width: 90%;
+  height: 150px;
+  list-style: none;
+  margin: 10px auto;
+}
+/*认证信息*/
+.cartifation {
+  display: none;
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+}
+.cart-title img {
+  width: 100%;
+  height: 100%;
+}
+.cart-info {
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+}
+
+#span2 {
+  opacity: 0.5;
+}
+#span3 {
+  opacity: 0.5;
+}
