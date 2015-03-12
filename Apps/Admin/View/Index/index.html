@@ -1,0 +1,23 @@
+<form action='{:U("Goods/insert","","","")}' method='POST' enctype='multipart/form-data'>
+	<div id="inputFile">
+        <input type='file' name='file[]'/><br/>
+    </div>
+        <button type='button' onclick='addInputFile();' >+</button><br/>
+        <!--
+        <input type='file' name='file[]'/><br/>
+        <input type='file' name='file[]'/><br/>
+         -->
+        <input type='submit' value='上传'/>
+    </form>
+
+<volist name='list' id='vo'>
+小图:<img src='/Thinkphp/PUBLIC/Images/s_{$vo.file_name}'/>
+大图：<img src='/Thinkphp/PUBLIC/Images/m_{$vo.file_name}'/>
+</volist>
+
+<script type="text/javascript" src="__PUBLIC__/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript">
+	function addInputFile() {
+		$("#inputFile").append("<input type='file' name='file[]'/><br/>");
+	}
+</script>
