@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit();?><form action='<?php echo U("Goods/insert","","","");?>' method='POST' enctype='multipart/form-data'>
+<?php if (!defined('THINK_PATH')) exit();?><form action='<?php echo U("Goods/uploadBanner","","","");?>' method='POST' enctype='multipart/form-data'>
 	<div id="inputFile">
         <input type='file' name='file[]'/><br/>
     </div>

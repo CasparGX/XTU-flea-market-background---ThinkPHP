@@ -1,0 +1,75 @@
+[ 2015-03-18T14:39:36+08:00 ] ::1 /ershou/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000806s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0785s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` LIMIT 1   [ RunTime:0.0615s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+NOTIC: [8] Undefined variable: list F:\WAMP\apache\htdocs\ershou\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 13 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.139348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.139509s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001767s ]
+
+[ 2015-03-18T14:39:47+08:00 ] ::1 /ershou/index.php/Admin/Goods/uploadBanner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' F:\WAMP\apache\htdocs\ershou\Apps\Admin\Controller\GoodsController.class.php 第 67 行.
+NOTIC: [2] mkdir(): No such file or directory F:\WAMP\apache\htdocs\ershou\ThinkPHP\Library\Think\UploadFile.class.php 第 161 行.
+
+[ 2015-03-18T14:39:54+08:00 ] ::1 /ershou/index.php/Admin/Goods/uploadBanner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' F:\WAMP\apache\htdocs\ershou\Apps\Admin\Controller\GoodsController.class.php 第 67 行.
+NOTIC: [2] mkdir(): No such file or directory F:\WAMP\apache\htdocs\ershou\ThinkPHP\Library\Think\UploadFile.class.php 第 161 行.
+
+[ 2015-03-18T14:39:57+08:00 ] ::1 /ershou/index.php/Admin/Goods/uploadBanner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' F:\WAMP\apache\htdocs\ershou\Apps\Admin\Controller\GoodsController.class.php 第 67 行.
+NOTIC: [2] mkdir(): No such file or directory F:\WAMP\apache\htdocs\ershou\ThinkPHP\Library\Think\UploadFile.class.php 第 161 行.
+
+[ 2015-03-18T14:41:17+08:00 ] ::1 /ershou/index.php/Admin/Goods/uploadBanner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001868s ]
+
+[ 2015-03-18T14:50:44+08:00 ] ::1 /ershou/index.php/Admin/Goods/uploadBanner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000868s ]
+

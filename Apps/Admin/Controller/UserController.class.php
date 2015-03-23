@@ -9,11 +9,11 @@ class UserController extends CommonController {
 	/**
 	 * 构造函数,完成通用操作
 	 */
-	protected function _initialize()
+	/*protected function _initialize()
     {
     	//支持跨域ajax操作的头信息.测试时跨域操作用,正式发布时应关闭;
 		header("Access-Control-Allow-Origin:*");
-    }
+    }*/
 
 	public function index() {
 		$this->display();
@@ -49,13 +49,17 @@ class UserController extends CommonController {
 			cookie('User',$email);
 			session('uid',$result['id']);
 			session('userEmail',$email);
-
+			//echo session("uid");
+			//echo session("userEmail");
 			unset($result['password']);//删除查询出来的数组中password项
 			unset($result['power']);
 			$result = returnMsg(1,$result);
 			$this->ajaxReturn($result,"json");
 		}
 		else {
+			cookie('User',null);
+			session('uid',null);
+			session('userEmail',null);
 			$this->ajaxReturn($result,"json");
 		}
 	}

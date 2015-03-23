@@ -3,6 +3,12 @@ Admin接口信息:{
 	操作接口列表:{
 		控制名:Goods;
 		Goods操作名:{
+			uploadBanner:{
+				上传banner图	post/get
+				需要管理权限才能上传,只能添加一张图片.
+				标准大小:945*100;
+			}
+
 			insert:{
 				新增商品	需要post提交参数
 				title:	发布商品的标题

@@ -9,10 +9,12 @@ class CommonController extends Controller {
     {
 
 		header("Access-Control-Allow-Origin:*");
+		header("Access-Control-Allow-Headers:Content-Type");
+		header("Access-Control-Allow-Methods:*");
         $this->action = ACTION_NAME;
         $this->controller = CONTROLLER_NAME;
         //echo $this->action.'/'.$this->controller;
-        //echo session('uid').'/'.session('userEmail');
+		cookie("flag","init:".session('uid').'/'.session('userEmail'));
         if($this->controller=="Goods"||$this->controller=="goods")
         	$this->checkGoods();
         else if($this->controller=="User"||$this->controller=="user")
@@ -34,8 +36,10 @@ class CommonController extends Controller {
 		//判断是否登陆,且商品是否属于该用户
 		if($this->action=="soldOut" || $this->action=="delete" || $this->action=="edit") {
 			if($this->ifLogin()==1) {
-
-				if($this->ifBelongTo()) {
+				//echo $this->checkPower();
+				if($this->checkPower()) {
+					//如果权限为管理员 , 跳过操作
+				} else if($this->ifBelongTo()) {
 
 				} else {
 					$result = returnMsg(0,"商品编号错误");
@@ -53,7 +57,7 @@ class CommonController extends Controller {
 	protected function checkUser() {
 
 		//检测账户是否登陆且是否为1权限
-		if($this->action=="changeInfo" || $this->action=="register2" || $this->action=="changePassword") {
+		if($this->action=="changeInfo" || $this->action=="register2" || $this->action=="changePassword" || $this->action=="uploadBanner") {
 
 			if($this->ifLogin()) {
 
@@ -92,6 +96,7 @@ class CommonController extends Controller {
 			return 1;
 		else
 			return 0;
+			//return 1;//暂时取消登陆验证, 正常使用应该为零;
 	}
 
 	/**
@@ -119,7 +124,7 @@ class CommonController extends Controller {
 		$uid = session('uid');
 		$user = D("User");
 		$result = $user->where(array('id'=>$uid))->find();
-		if($result==1) {
+		if($result["power"]==1) {
 			return 1;
 		}
 		else {

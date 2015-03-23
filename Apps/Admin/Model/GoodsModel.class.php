@@ -61,20 +61,21 @@ class GoodsModel extends Model {
 	 * 修改商品信息
 	 *
 	 */
-	public function edit($id, $title, $type, $price, $describe, $bargain, $trading, $qq, $phone, $interval) {
+	public function edit($id, $title, $type, $price, $describe, /*$bargain,*/ $trading, $qq, $phone, $interval) {
 		$end_time = date("Y-m-d h:i:s",mktime(0,0,0,date("m"),date("d")+$interval,date("Y")));
 		$data = array(
 				'title'=>$title,
 				'type'=>$type,
 				'price'=>$price,
 				'describe'=>$describe,
-				'bargain'=>$bargain,
+				/*'bargain'=>$bargain,*/
 				'trading'=>$trading,
 				'qq'=>$qq,
 				'phone'=>$phone,
-				'last_time'=>date("Y-m-d h:i:s");
+				'last_time'=>date("Y-m-d h:i:s"),
 				'end_time'=>$end_time
 			);
+		//dump($data);die();
 		$result = $this->where(array('id'=>$id))->save($data);
 		return $result;
 	}
