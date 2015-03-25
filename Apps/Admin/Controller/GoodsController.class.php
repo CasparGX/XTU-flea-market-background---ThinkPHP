@@ -180,7 +180,7 @@ class GoodsController extends CommonController {
                 if($insId) {
                 	//$result = returnMsg(1,"商品添加成功");
                 	//$this->ajaxReturn($result,"json");
-                	$this->success("商品添加成功","http://www.chengjiuaixin.com");
+                	$this->success("商品添加成功","http://flea.sky31.com/publish.html");
                 } else {
                 	//$result = returnMsg(0,"商品添加失败");
                 	//$this->ajaxReturn($result,"json");
