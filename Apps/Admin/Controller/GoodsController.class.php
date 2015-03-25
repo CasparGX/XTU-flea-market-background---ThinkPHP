@@ -123,7 +123,8 @@ class GoodsController extends CommonController {
              return $info;
 
          }else{
-             $this->ajaxReturn(returnMsg(0,$file->getErrorMsg()),'json');
+             //$this->ajaxReturn(returnMsg(0,$file->getErrorMsg()),'json');
+         	$this->error($file->getErrorMsg());
          }
     }
 
