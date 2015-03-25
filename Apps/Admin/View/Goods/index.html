@@ -15,29 +15,147 @@
 		*{margin: 0 auto;padding: 0;}
 		.content{max-width:1000px;margin:0 auto;padding:20px;}
 
+		/*提示消息部分*/
+		.msgMark{background: rgba(0,0,0,0.5); width:100%; height:100%; position:fixed; z-index:5; display:none;}
+		.msgBox{background: #333; border-radius:4px; width:200px; margin-left:-100px; margin-top:-25px; height:50px; position:absolute; top:50%; left:50%; z-index:6; color:#fff; padding:0 60px; line-height:50px; display:none;}
+		/*提示消息结束*/
+
+		/*修改表单部分*/
+		.editForm{position:absolute;top:5%;margin-top:0%;left:50%;margin-left:-45%;width:90%;height:90%;border-radius:5px;background-color:#eee;display:none;z-index:6;overflow-y:scroll;overflow-x:hidden;}
+		/*修改表单结束*/
+
+		/* 右键菜单部分 */
 		.rightKeyMenu{width:50px;height:auto;border:1px solid #666; display:none; position: absolute; z-index: 999; background:#fff; }
 		.rightKeyMenu ul{list-style:none; margin:0;}
 		.rightKeyMenu ul li{text-align:center;padding:2px;}
-		.rightKeyMenu ul li:hover{background-color: #999;}
+		.rightKeyMenu ul li a {color: #333;text-decoration: none; display: block;font-size:12px;}
+		.rightKeyMenu ul li:hover{background-color: #999; color: #fff;}
+		.rightKeyMenu ul li a:hover{color:#fff;}
+		/* 右键菜单结束 */
 	</style>
 
 </head>
 <body>
+	<!-- 提示消息部分 -->
+	<div class="msgMark"></div>
+	<div class="msgBox">请稍后...</div>
+	<!-- 提示消息结束 -->
+
+	<!-- 修改from表单 -->
+	<div class="editForm">
+			<form class="form-horizontal" id="edit-goods">
+				<a href="javascript:;" class="edit-close">X</a>
+				<div class="form-group">
+					<label for="inputName" class="col-sm-2 control-label">商品名称</label>
+					<div class="col-sm-8">
+						<input type="text" name="title" class="form-control" id="inputName" value="">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="inputInfos" class="col-sm-2 control-label">商品详情</label>
+					<div class="col-sm-8">
+					<textarea name="describe" id="inputInfos" cols="10" rows="3" class="form-control" placeholder="描述商品的用途、新旧程度、原价等。至少15字。"></textarea>
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="inputPrice" class="col-sm-2 control-label">价格</label>
+					<div class="col-sm-8">
+						<input type="text" name="price" class="form-control" id="inputPrice" placeholder="￥ " value="">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="inputClass" name="type" class="col-sm-2 control-label">分类</label>
+					<div class="col-sm-8">
+						<select name="type" id="inputClass" class="form-control">
+							<option value="1">图书教材</option>
+							<option value="2">数码产品</option>
+							<option value="3">代步工具</option>
+							<option value="4">运动器材</option>
+							<option value="5">衣物鞋帽</option>
+							<option value="6">家用电器</option>
+							<option value="7">租赁</option>
+							<option value="8">其他</option>
+						</select>
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="inputInterval" name="type" class="col-sm-2 control-label">上架天数</label>
+					<div class="col-sm-4">
+						<select name="interval" id="inputInterval" class="form-control">
+							<option value="7" checked>7天</option>
+							<option value="15">15天</option>
+							<option value="30">30天</option>
+						</select>
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="inputTrade" name="type" class="col-sm-2 control-label">交易方式</label>
+					<div class="col-sm-4">
+						<select name="trading" id="inputTrade" class="form-control">
+							<option value="1">面议</option>
+							<option value="2">送货上门</option>
+							<option value="3">其他</option>
+						</select>
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="inputSeller" class="col-sm-2 control-label" id="label-nick">昵称</label>
+					<div class="col-sm-4">
+						<input type="text" name="seller" class="form-control" id="inputSeller" value="">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="bargin" name="bargin" class="col-sm-2 control-label">是否支持讲价</label>
+					<div class="col-sm-4 radio-top">
+						<input type="radio" value="1" name="bargain" checked>是
+						<input type="radio" value="0" name="bargain">否
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="inputPhone" class="col-sm-2 control-label">手机</label>
+					<div class="col-sm-8">
+						<input type="text" name="phone" class="form-control" id="inputPhone" maxlength="11" value="">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="inputQQ" class="col-sm-2 control-label">QQ</label>
+					<div class="col-sm-8">
+						<input type="text" name="qq" class="form-control" id="inputQQ" value="">
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-sm-offset-2 col-sm-7">
+						<button type="button" class="btn btn-default publish-btn" id="publish-edit-goods" onclick="pub_edit_goods()">
+							马上发布
+						</button>
+					</div>
+				</div>
+			</form>
+	</div>
+	<!-- 修改from表单结束 -->
+
+	<!-- 右键菜单部分 -->
 	<div class="rightKeyMenu">
 		<ul>
-			<li>修改</li>
-			<li>下架</li>
-			<li>删除</li>
+			<li><a href="javascript:;" onclick="rightKeyMenu(1);">修改</a></li>
+			<li><a href="javascript:;" onclick="rightKeyMenu(2);">下架</a></li>
+			<li><a href="javascript:;" onclick="rightKeyMenu(3);">删除</a></li>
 		</ul>
 	</div>
+	<!-- 右键菜单结束 -->
 
+	<!-- 头部开始 -->
 	<div class="head">
 	</div>
+	<!-- 头部结束 -->
 
+	<!-- 主体开始 -->
 	<div class="content">
+	<!-- data-show-columns="true" -->
+				<!-- 动态生成表格插件 -->
 				<table id="table"
 			           data-toggle="table"
-			           data-show-columns="true"
+
 			           data-search="true"
 			           data-show-refresh="true"
 			           data-show-toggle="true"
@@ -62,24 +180,112 @@
 			        </tr>
 			        </thead>
 			    </table>
+			    <!-- 动态生成表格插件结束 -->
 	</div>
+	<!-- 主体结束 -->
 
+	<!-- 底部开始 -->
 	<div class="foot">
 
 	</div>
-
+	<!-- 底部结束 -->
 	<script type="text/javascript">
+		var gid;
+		//发布修改
+		function pub_edit_goods(gid){
+			$.ajax({
+				url: 'http://flea.sky31.com/fleaapi/index.php/Admin/Goods/edit?gid='+gid,
+				data: {
+					'title':$("#inputName").val(),
+					'describe':$("#inputInfos").val(),
+					'price':$("#inputPrice").val(),
+					'phone':$("#inputPhone").val(),
+					'qq':$("#inputQQ").val(),
+					'interval': $("#inputInterval option:selected").val(),
+					'trading':$("#inputTrade").val(),
+					'seller':$("#inputSeller").val(),
+					'gid': gid
+				},
+				type: 'post',
+				dataType: 'json',
+				success: function(data){
+					if (data.result == 'success') {
+						alert(data.msg);
+					}else if(data.result == 'error'){
+						alert(data.msg);
+					}
+				}
+			})
+		}
+
+		/**
+		 * 右键菜单点击响应事件
+		 */
+		function rightKeyMenu(menuId) {
+			//隐藏右键菜单
+			$(".rightKeyMenu").css({display:'none'});
+			if (menuId == 1) {
+				//修改
+
+				//显示提示框
+				$(".msgMark").css({display:'block'});
+				$(".msgBox").css({display:'block'});
+
+				//获取数据
+				$.ajax({
+					url:"query?gid="+gid,
+					dataType:"json",
+					type:"get",
+					success:function(data) {
+							$("#edit-goods").show();
+							$(".bk").show();
+							$("#inputName").val(data.title);
+							$("#inputInfos").append(data.describe);
+							$("#inputPrice").val(data.price);
+							$("#inputPhone").val(data.phone);
+							$("#inputQQ").val(data.qq);
+							$("#inputInterval").val(data.interval);
+							$("#inputTrade").val(data.trading);
+							$("#inputSeller").val(data.seller);
+							$(".pub-edit").append(
+								"<button type='button' class='btn btn-default publish-btn' id='publish-editgoods' onclick='pub_edit_goods("+gid+")'></button>"
+							)
+
+						//隐藏提示框
+						$(".editForm").css({display:'block'});
+						$(".msgBox").css({display:'none'});
+					}
+				});
+			} else if(menuId == 2) {
+				//下架
+				$.ajax({
+					url:"soldOut?gid="+gid,
+					dataType:"json",
+					type:"get",
+					success:function(data) {
+						console.log(data);
+					}
+				});
+			} else if(menuId == 3) {
+				//删除
+
+			}
+		}
+
+		// 生成动态表格, 并且响应自定义右键菜单
 		$('#table').bootstrapTable({
 		  //url: '__PUBLIC__/data/data1.json'
 		  url: 'http://localhost/ershou/index.php/Admin/Goods/query'
-		}).on('load-success.bs.table', function (e, data) {
+		})
+			.on('load-success.bs.table', function (e, data) {
+				// 动态表格生成后,绑定自定义右键菜单事件
                 $('#table tbody tr').mousedown(function(e){
                 	var flag=0;
 					if(e.which==3) {
 						$(".rightKeyMenu").offset({top:e.pageY, left:e.pageX});
 						$(".rightKeyMenu").css({display:'block'});
 						flag=1;
-						console.log(e.pageX);
+						gid = this.firstChild.innerHTML;
 					} else if ((e.which==1 || e.which==2)) {
 						$(".rightKeyMenu").css({display:'none'});
 						flag=0;
@@ -88,22 +294,8 @@
             });
 
 		$(document).bind('contextmenu',function(e){
+			// 屏蔽右键菜单
 			return false;
-		 });
-
-
-		$(window).load(function(){
-			$('#table tbody tr').mousedown(function(e){
-				if(e.which==3) {
-					console.log(this);
-				}
-			});
-		});
-
-		$(function(){
-
-
-
 		});
 
 	</script>
