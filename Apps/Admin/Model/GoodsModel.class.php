@@ -103,7 +103,7 @@ class GoodsModel extends Model {
 	 * @param $limitID 查询批次
 	 * @param $validity 是否忽略下架商品,如果值为1,默认不查询已下架商品
 	 */
-	public function queryGoods($id, $type, $title, $limitID, $validity) {
+	public function queryGoods($id, $type, $title, $limitID, $validity, $uid) {
 		if($id!="") {
 			$query = array('id'=>$id);
 			$result = $this->where($query)->find();
@@ -132,6 +132,9 @@ class GoodsModel extends Model {
 
 			if($validity==1)
 				$query['end_time'] = array('egt', date("Y-m-d h:i:s"));
+
+			if($uid!="")
+				$query['sellerID'] = $uid;
 
 			$limitInterval = 30;//limit间隔为30条记录
 			$limitStart = $limitID*$limitInterval;//limit开始位置

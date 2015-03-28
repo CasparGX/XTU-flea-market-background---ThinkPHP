@@ -287,8 +287,9 @@ class GoodsController extends CommonController {
 		$limitID = I('get.limitID');
 		$validity = I('get.validity');
 		$goods = D('Goods');
+		$uid = I('get.uid');
 		//echo $validity;die();
-		$result = $goods->queryGoods($id, $type, $title, $limitID, $validity);
+		$result = $goods->queryGoods($id, $type, $title, $limitID, $validity, $uid);
 		if($id!=null) {
 			$countGoods = 1;
 			parse_str($result["picname"],$result["picname"]);
