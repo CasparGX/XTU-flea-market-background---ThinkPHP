@@ -121,9 +121,12 @@ class UserController extends CommonController {
     	$phone = I('phone');
     	if($id=="") {
     		$result = returnMsg(0,"无指定用户");
+    	} else if($nickname=="") {
+    		$result = returnMsg(0,"昵称未填写");
     	}
     	$user = D("User");
-    	$user->changeInfo($id, $nickname ,$qq, $phone);
+    	$result = $user->changeInfo($id, $nickname ,$qq, $phone);
+    	$this->ajaxReturn($result,"json");
     }
 
     /**
