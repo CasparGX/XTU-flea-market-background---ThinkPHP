@@ -61,15 +61,18 @@ class CommonController extends Controller {
 
 			if($this->ifLogin()) {
 
-				if($this->action=="changePassword") {
-					if(I('post.uid')) {
-						if($this->checkPower()) {
+				if($this->action=="changeInfo" || $this->action=="changePassword") {
+					//检测是否当前账号还是admin权限
+					if( I('uid')==session('uid') || !(I('uid')) )
+
+			    	else {
+			    		if($this->checkPower()) {
 
 						} else {
 							$result = returnMsg(0,"权限不足,无法操作");
 							$this->ajaxReturn($result,"json");
 						}
-					} else {}
+			    	}
 
 				} else {
 					if($this->checkPower()) {

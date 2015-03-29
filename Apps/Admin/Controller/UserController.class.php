@@ -115,7 +115,12 @@ class UserController extends CommonController {
      * 修改用户信息
      */
     public function changeInfo() {
-    	$id = I('uid');
+    	if( I('uid')==session('uid') || !(I('uid')) )
+    		$id = session('uid');
+    	else {
+    		$id = I('uid');
+    	}
+
     	$nickname = I('nickname');
     	$qq = I('qq');
     	$phone = I('phone');
