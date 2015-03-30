@@ -122,10 +122,6 @@ class GoodsModel extends Model {
 			if($title!="")
 				$query['title'] = array('like', '%'.$title.'%');
 
-			//limitID默认为0
-			if($limitID=="")
-				$limitID = 0;
-
 			//validity默认为1
 			if($validity=="")
 				$validity = 1;
@@ -136,10 +132,21 @@ class GoodsModel extends Model {
 			if($uid!="")
 				$query['sellerID'] = $uid;
 
-			$limitInterval = 30;//limit间隔为30条记录
-			$limitStart = $limitID*$limitInterval;//limit开始位置
-			$limitEnd = ($limitID+1)*$limitInterval-1;//limit结束位置
-			$result = $this->where($query)->limit($limitStart, $limitEnd)->select();
+			//limitID默认为0
+			if($limitID=="")
+				$limitID = 0;
+			else if ($limitID=="*") {
+				//如果$limitID等于-1,则返回全部数据
+				$result = $this->where($query)->select();
+			} else {
+				//默认返回30条记录
+				$limitInterval = 30;//limit间隔为30条记录
+				$limitStart = $limitID*$limitInterval;//limit开始位置
+				$limitEnd = ($limitID+1)*$limitInterval-1;//limit结束位置
+
+				$result = $this->where($query)->limit($limitStart, $limitEnd)->select();
+			}
+
 			if($result)
 				return $result;
 			else if($result==NULL)
