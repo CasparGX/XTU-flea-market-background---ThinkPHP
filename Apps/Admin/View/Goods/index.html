@@ -160,7 +160,7 @@
 			           data-show-refresh="true"
 			           data-show-toggle="true"
 			           data-pagination="true"
-			           data-height="500"
+			           data-height="auto"
 			           data-id-field="ID">
 			        <thead>
 			        <tr>
@@ -274,8 +274,9 @@
 
 		// 生成动态表格, 并且响应自定义右键菜单
 		$('#table').bootstrapTable({
+		  url:'http://flea.sky31.com/fleaapi/index.php/Admin/Goods/query?limitID=*'
 		  //url: '__PUBLIC__/data/data1.json'
-		  url: 'http://localhost/ershou/index.php/Admin/Goods/query'
+		  //url: 'http://localhost/ershou/index.php/Admin/Goods/query'
 		})
 			.on('load-success.bs.table', function (e, data) {
 				// 动态表格生成后,绑定自定义右键菜单事件
