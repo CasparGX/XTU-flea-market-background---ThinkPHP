@@ -63,7 +63,7 @@ class CommonController extends Controller {
 
 				if($this->action=="changeInfo" || $this->action=="changePassword") {
 					//检测是否当前账号还是admin权限
-					if( I('uid')==session('uid') || !(I('uid')) )
+					if( I('uid')==session('uid') || !(I('uid')) ) {}
 
 			    	else {
 			    		if($this->checkPower()) {
