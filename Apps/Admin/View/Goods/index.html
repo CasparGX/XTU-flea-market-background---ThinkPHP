@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta author="CasparGX">
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,13 +26,34 @@
 		/*修改表单结束*/
 
 		/* 右键菜单部分 */
-		.rightKeyMenu{width:50px;height:auto;border:1px solid #666; display:none; position: absolute; z-index: 999; background:#fff; }
-		.rightKeyMenu ul{list-style:none; margin:0;}
-		.rightKeyMenu ul li{text-align:center;padding:2px;}
-		.rightKeyMenu ul li a {color: #333;text-decoration: none; display: block;font-size:12px;}
-		.rightKeyMenu ul li:hover{background-color: #999; color: #fff;}
+		.rightKeyMenu{min-width:40px;height:auto; border:1px solid rgba(166, 166, 166, 0.45); display:none; position: absolute; z-index: 999; background:#fff; box-shadow: 1px 1px 6px rgba(0,0,0,0.3);}
+		.rightKeyMenu ul{list-style:none; margin:0; }
+		.rightKeyMenu ul li{text-align:center;padding:0px; min-height:28px;}
+		.rightKeyMenu ul li a {color: #333;text-decoration: none; display: block;font-size:12px; line-height:28px;}
+		.rightKeyMenu ul li:hover{background-color: rgb(29,198,241); color: #fff;}
 		.rightKeyMenu ul li a:hover{color:#fff;}
 		/* 右键菜单结束 */
+
+		/* head部分 */
+		.head{width:auto; min-width:1000px; height:100px; background-color:rgb(29,198,241); box-shadow:0px 0px 10px rgba(0,0,0,0.45);}
+		.h_content{width:1000px; margin: auto; height:100px; }
+		.h_title{color:#fff; font-size:28px; font-family:"微软雅黑"; line-height:100px; float:left;}
+		.h_nav .navTitle{float:left; height:100px; width:110px; text-align:center; line-height:100px; font-size:24px; font-family:"微软雅黑"; color:#fff; position:relative; z-index:3; }
+		.h_nav .hover{box-shadow:0px -8px 10px rgba(0,0,0,0.30); background-color:#3AD2FF;}
+		.h_nav{width:400px; height:100px; float:right; }
+		.h_nav .mainNav{min-width:100px; width:auto; float:left;}
+		.h_nav .mainNav .navMenu{display:none; position: relative; background-color: #3AD2FF; z-index: 2; box-shadow:0px 0px 10px rgba(0,0,0,0.3); clear:both; border-radius:0px 0px 4px 4px;}
+		.h_nav .mainNav .navMenu a{width:100%; height:30px; display:block; color:#fff; text-align:center; line-height:30px; text-decoration:none;}
+		.h_nav .mainNav .navMenu a:hover{background-color:#3ef;}
+		/* head部分结束 */
+
+		/* content部分 */
+		.content{height:auto; overflow: hidden;}
+		/* content部分结束 */
+
+		/* foot部分 */
+		.foot{width:auto; height:100px; background-color: rgb(29,198,241);}
+		/* foot部分结束 */
 	</style>
 
 </head>
@@ -136,6 +158,24 @@
 
 	<!-- 右键菜单部分 -->
 	<div class="rightKeyMenu">
+		<!-- 菜单左方小三角形 -->
+		<em style="
+		    border-style: solid;
+		    border-color: rgba(255, 0, 0, 0) rgba(166, 166, 166, 0.45);
+		    border-width: 9px 9px 9px 0px;  position: absolute;
+		    left: -9px;
+		    top: 33px;
+		"></em>
+
+		  <em style="
+		    border-style: solid;
+		    border-color: rgba(255, 0, 0, 0) white;
+		    border-width: 8px 8px 8px 0px;
+		    position: absolute;
+		    left: -8px;
+		    top: 34px;
+		"></em>
+
 		<ul>
 			<li><a href="javascript:;" onclick="rightKeyMenu(1);">修改</a></li>
 			<li><a href="javascript:;" onclick="rightKeyMenu(2);">下架</a></li>
@@ -146,6 +186,33 @@
 
 	<!-- 头部开始 -->
 	<div class="head">
+		<div class="h_content">
+			<div class="h_title">湘大二手街后台管理</div>
+			<div class="h_nav">
+				<div class="mainNav">
+					<div class="navTitle">
+						商品管理
+					</div>
+					<div class="navMenu">
+						<php>$goods = C('goodsType');</php>
+							<foreach name="goods" item="good" key="k">
+								<a href>{$good}</a>
+							</foreach>
+						<!-- <a href>图书</a>
+						<a href>衣物</a> -->
+					</div>
+				</div>
+				<div class="mainNav">
+					<div class="navTitle">
+						用户管理
+					</div>
+					<div class="navMenu">
+						<a href>图书</a>
+						<a href>衣物</a>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 	<!-- 头部结束 -->
 
@@ -160,7 +227,6 @@
 			           data-show-refresh="true"
 			           data-show-toggle="true"
 			           data-pagination="true"
-			           data-height="auto"
 			           data-id-field="ID">
 			        <thead>
 			        <tr>
@@ -176,7 +242,7 @@
 
 			            <th data-field="qq">QQ</th>
 
-			            <th data-field="last_time">下架时间</th>
+			            <th data-field="end_time">下架时间</th>
 			        </tr>
 			        </thead>
 			    </table>
@@ -189,7 +255,34 @@
 
 	</div>
 	<!-- 底部结束 -->
+
 	<script type="text/javascript">
+
+		$(document).ready(function(){
+			//导航菜单hover
+			$(".mainNav").hover(function(){
+				$(this).find(".navTitle").addClass("hover");
+				$(this).find(".navMenu").css({top:-$(this).find(".navMenu").height(),opacity:0.5});
+				$(this).find(".navMenu").show();
+				$(this).find(".navMenu").animate({top:'0',opacity:1},400);
+			},function(){
+
+				//$(this).find(".navMenu").animate({top:-$(this).find(".navMenu").height()},1000);
+				$(this).find(".navMenu").hide();
+				$(this).find(".navTitle").removeClass("hover");
+			});
+
+		});
+
+		/*function navMenuOver(menuName) {
+			$('.navMenu').css({display:'none'});
+			$('#'+menuName).css({display:'block'});
+		}
+
+		function navMenuOut(menuName) {
+			$('.navMenu').css({display:'none'});
+		}*/
+
 		var gid;
 		//发布修改
 		function pub_edit_goods(gid){
@@ -217,6 +310,12 @@
 				}
 			})
 		}
+
+		//关闭edit-close弹框
+		$('.edit-close').click(function(){
+			$(".msgMark").css({display:'none'});
+			$(".msgBox").css({display:'none'});
+		});
 
 		/**
 		 * 右键菜单点击响应事件
@@ -272,19 +371,33 @@
 			}
 		}
 
-		// 生成动态表格, 并且响应自定义右键菜单
-		$('#table').bootstrapTable({
-		  url:'http://flea.sky31.com/fleaapi/index.php/Admin/Goods/query?limitID=*'
-		  //url: '__PUBLIC__/data/data1.json'
-		  //url: 'http://localhost/ershou/index.php/Admin/Goods/query'
-		})
-			.on('load-success.bs.table', function (e, data) {
-				// 动态表格生成后,绑定自定义右键菜单事件
-                $('#table tbody tr').mousedown(function(e){
+
+
+			// 生成动态表格, 并且响应自定义右键菜单
+			$('#table').bootstrapTable({
+			  url:'http://flea.sky31.com/fleaapi/index.php/Admin/Goods/query?limitID=*'
+			  //url: '__PUBLIC__/data/data1.json'
+			  //url: 'http://localhost/ershou/index.php/Admin/Goods/query'
+			})
+				.on('load-success.bs.table', function (e, data) {
+					// 动态表格生成后,绑定自定义右键菜单事件
+					creatRightKeyMenu();
+	            })
+	            .on('page-change.bs.table', function (e, size, number) {
+	                creatRightKeyMenu();
+	            });
+
+
+        function creatRightKeyMenu() {
+
+        		$('#table tbody tr').mousedown(function(e){
                 	var flag=0;
 					if(e.which==3) {
-						$(".rightKeyMenu").offset({top:e.pageY, left:e.pageX});
+						mouseX = e.pageX+16;
+						mouseY = e.pageY-40;
 						$(".rightKeyMenu").css({display:'block'});
+						$(".rightKeyMenu").css({top:mouseY, left:mouseX, width:'10px'});
+						$(".rightKeyMenu").animate({width:'100px'},100);
 						flag=1;
 						gid = this.firstChild.innerHTML;
 					} else if ((e.which==1 || e.which==2)) {
@@ -292,12 +405,32 @@
 						flag=0;
 					}
 				});
-            });
+        }
 
 		$(document).bind('contextmenu',function(e){
 			// 屏蔽右键菜单
 			return false;
 		});
+
+		/*$(document).mousedown(function(e){
+			if(e.which==3) {
+				var flag=0;
+					if(e.which==3) {
+						mouseX = e.pageX+10;
+						mouseY = e.pageY-40;
+						$(".rightKeyMenu").css({display:'block'});
+						$(".rightKeyMenu").css({top:mouseY, left:mouseX, width:'10px'});
+						$(".rightKeyMenu").animate({width:'100px'},100);
+						//$(".rightKeyMenu").offset({top:e.pageY, left:e.pageX});
+
+						flag=1;
+						gid = this.firstChild.innerHTML;
+					} else if ((e.which==1 || e.which==2)) {
+						$(".rightKeyMenu").css({display:'none'});
+						flag=0;
+					}
+			}
+		});*/
 
 	</script>
 </body>
