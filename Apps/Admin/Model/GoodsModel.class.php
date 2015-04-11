@@ -144,7 +144,7 @@ class GoodsModel extends Model {
 				$limitStart = $limitID*$limitInterval;//limit开始位置
 				$limitEnd = ($limitID+1)*$limitInterval-1;//limit结束位置
 
-				$result = $this->where($query)->limit($limitStart, $limitEnd)->select();
+				$result = $this->where($query)->limit($limitStart, $limitEnd)->order('last_time desc')->select();
 			}
 
 			if($result)
