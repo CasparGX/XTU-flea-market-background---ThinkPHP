@@ -13,6 +13,17 @@
 	<script src="__PUBLIC__/js/bootstrap-table.js"></script>
 
 	<style>
+		/* 改变反选字体颜色 */
+		::-moz-selection{ /*针对Firefox*/
+		background:#0fe;
+		color:#fff;
+		 }
+		::selection {
+		background:#0fe;
+		color:#fff;
+		}
+		/* 改变反选字体颜色结束 */
+
 		*{margin: 0 auto;padding: 0;}
 		.content{max-width:1000px;margin:0 auto;padding:20px;}
 
@@ -38,7 +49,7 @@
 		.head{width:auto; min-width:1000px; height:100px; background-color:rgb(29,198,241); box-shadow:0px 0px 10px rgba(0,0,0,0.45);}
 		.h_content{width:1000px; margin: auto; height:100px; }
 		.h_title{color:#fff; font-size:28px; font-family:"微软雅黑"; line-height:100px; float:left;}
-		.h_nav .navTitle{float:left; height:100px; width:110px; text-align:center; line-height:100px; font-size:24px; font-family:"微软雅黑"; color:#fff; position:relative; z-index:3; }
+		.h_nav .navTitle{float:left; height:100px; width:110px; text-align:center; line-height:100px; font-size:20px; font-family:"微软雅黑"; color:#fff; position:relative; z-index:3; }
 		.h_nav .hover{box-shadow:0px -8px 10px rgba(0,0,0,0.30); background-color:#3AD2FF;}
 		.h_nav{width:400px; height:100px; float:right; }
 		.h_nav .mainNav{min-width:100px; width:auto; float:left;}
@@ -264,11 +275,13 @@
 				$(this).find(".navTitle").addClass("hover");
 				$(this).find(".navMenu").css({top:-$(this).find(".navMenu").height(),opacity:0.5});
 				$(this).find(".navMenu").show();
-				$(this).find(".navMenu").animate({top:'0',opacity:1},400);
+				$(this).find(".navTitle").animate({'line-height':'130px'},100);
+				$(this).find(".navMenu").animate({'top':'0px',opacity:1},400);
 			},function(){
 
-				//$(this).find(".navMenu").animate({top:-$(this).find(".navMenu").height()},1000);
-				$(this).find(".navMenu").hide();
+				$(this).find(".navMenu").animate({top:-$(this).find(".navMenu").height()},400).hide();
+				$(this).find(".navTitle").animate({'line-height':'100px'},100);
+				//$(this).find(".navMenu").hide();
 				$(this).find(".navTitle").removeClass("hover");
 			});
 
@@ -404,6 +417,10 @@
 						$(".rightKeyMenu").css({display:'none'});
 						flag=0;
 					}
+				})
+				.dblclick(function(){
+					//双击事件
+					$(this).select(f);
 				});
         }
 
