@@ -104,9 +104,9 @@ class GoodsController extends CommonController {
         //对上传文件进行缩略图处理
         $file->thumb = true;
         //缩略图的最大的宽度
-        $file->thumbMaxWidth = '200,60';
+        $file->thumbMaxWidth = '600,200';
         //缩略图的最大的高度
-        $file->thumbMaxHeight = '200,60';
+        $file->thumbMaxHeight = '600,200';
         //缩略图的前缀
         $file->thumbPrefix = 's_,m_';
          // 缩略图保存路径
